@@ -1,0 +1,56 @@
+#calendar-wrap {
+    width: 50vw;
+    border: 1px solid #ccc;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.flex-box.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-box.left {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header {
+    padding: 2vh 0;
+}
+
+.selector {
+    margin: 0 3%;
+}
+
+.week {
+    line-height: 2;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.week-item {
+    width: calc(100% / 7);
+    text-align: center;
+}
+
+.dates {
+    flex-wrap: wrap;
+}
+
+.dates-item {
+    width: calc(100% / 7);
+    line-height: 2;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dates-item.current {
+    color: red;
+}
+
+button {
+    cursor: pointer;
+}
