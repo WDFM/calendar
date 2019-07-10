@@ -10,7 +10,7 @@ Show a simple calendar.
     width|String|calendar's width, like '100px', '50%'|'auto'
     height|String|calendar's height, like '100px', '50%'|'auto'
     year|Number|which year calendar shows, like 2019|Current year
-    month|Number|Number|which month calendar shows, like 12|Current month
+    month|Number|which month calendar shows, like 12|Current month
     selector|String|calendar container, it's a css selector, like '.calendar-container'|'#calendar-container'
 
     ```
